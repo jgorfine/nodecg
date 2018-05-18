@@ -1,0 +1,42 @@
+{
+  "name": "hello-world",
+  "version": "0.0.0",
+  "description": "My first attempt at creating a NodeCG bundle.",
+  "homepage": "",
+  "author": {
+    "name": "Jen Gorfine",
+    "email": "jen@curlsandcode.com",
+    "url": "http://curlsandcode.com"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^0.9.11",
+    "dashboardPanels": [
+      {
+        "name": "jlg-demo",
+        "title": "Hello, World!",
+        "width": 2,
+        "file": "jlg-demo.html",
+        "headerColor": "#F12B6B"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 980,
+        "height": 100
+      }
+    ]
+  },
+  "repository": "https://github.com/jgorfine/nodecg.git",
+  "license": "MIT"
+}

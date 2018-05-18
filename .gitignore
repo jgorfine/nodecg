@@ -4,7 +4,9 @@ node_modules
 npm-debug.log
 
 # Local bundles
-/bundles/**
+/bundles/lange-notify
+/bundles/lfg-filter
+/bundles/lfg-nucleus
 
 # Datastores
 /db/**
